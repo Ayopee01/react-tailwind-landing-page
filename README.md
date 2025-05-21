@@ -1,8 +1,14 @@
-# React + Vite
+Project Description
+This website was developed using React (Vite) and styled with Tailwind CSS. It features a clean and responsive UI enhanced by CSS motion animations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key functionalities include:
 
-Currently, two official plugins are available:
+- A sticky navigation bar with smooth scrolling for seamless user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A sample shopping cart system, with state persisted via Local Storage.
+
+- An infinite scroll mechanism that dynamically fetches more data from an API, along with pagination for structured data presentation.
+
+- A validated contact form, ensuring proper input for name (minimum 3 characters), valid email format, and 10-digit phone number. Form submissions are handled via EmailJS.
+
+- A Dark Mode toggle for theme switching based on user preference.
